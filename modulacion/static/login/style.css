@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(
+        farthest-corner circle at 28% 50%, 
+        #c48c29 0%, #001740 58% 58%
+    );
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.fotos{
+    width: 50%;
+    margin-right: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 396px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #e8e8e9;
+    box-shadow: 0px 8px 32px #000;
+    background: #fff;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.form input{
+    width: 364px;
+    height: 52px;
+    background: #fff;
+    padding: 14px 16px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid rgba(0,23,64,1)
+}
+
+.form input:focus{
+    outline-color: rgba(196,139,41,1);
+}
+
+.form .submit{
+    width: 364px;
+    height: 52px;
+    background: rgba(196,139,41,1);
+    border-radius: 10px;
+    color: rgba(0,23,64,1);
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.form hr{
+    margin: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: .2px solid #000;
+}
+
+.form .button-secundario{
+    width: 189.8px;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    color: rgba(196,139,41,1);
+    background: rgba(0,23,64,1);
+}
