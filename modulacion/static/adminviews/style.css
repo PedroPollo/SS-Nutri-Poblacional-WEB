@@ -99,3 +99,16 @@ main{
 .sidebar:hover .link-text{
     display: block;
 }
+
+.logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.img{
+    height: fit-content;
+    width: fit-content;
+}
