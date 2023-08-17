@@ -6,7 +6,7 @@
 body {
     background: rgb(2,0,36);
     background: radial-gradient(
-        farthest-corner circle at 28% 50%, 
+        farthest-corner circle at 30% 50%, 
         #c48c29 0%, #001740 58% 58%
     );
 }
