@@ -12,7 +12,7 @@ form.addEventListener("submit", e =>{
     let warnings = ""
     let entrar = false
     let regerxEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/
-    if(regerxEmail.test(email.value)){
+    if(regerxEmail.test(email.value) == false){
         warnings += `El correo electronico no es valido <br>`
         entrar = true
     }
@@ -24,7 +24,7 @@ form.addEventListener("submit", e =>{
         warnings += `La contraseña es muy corta <br>`
         entrar = true
     }
-    if(pass1 != pass2){
+    if(pass1.value != pass2.value){
         warnings += `Las contraseñas no coinciden <br>`
         entrar = true
     }

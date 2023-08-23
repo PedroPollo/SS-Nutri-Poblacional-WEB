@@ -31,6 +31,18 @@ body {
     font-size: small;
 }
 
+.succes{
+    width: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    color: #000;
+    border-radius: 10px;
+    background-color: #ecab0f;
+    padding-top: 20px;
+    font-size: small;
+}
+
 .fotos{
     width: 50%;
     margin-right: 70px;
