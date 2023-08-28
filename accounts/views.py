@@ -7,6 +7,7 @@ from django.contrib.auth.models import Group
 
 from .forms import CreateUserForm
 from .decorators import unauthenticated_user, allowed_users, admin_only, investigator_only
+from .models import *
 
 
 # Create your views here.
@@ -56,8 +57,8 @@ def adminHome(request):
 @login_required(login_url='login')
 @admin_only
 def adminUsers(request):
-    context = {}
-    return render(request, 'accounts/admin/users.html', context)
+    users = User.objects.filter(is_superuser = False)
+    return render(request, 'accounts/admin/users.html', {'users':users})
 
 @login_required(login_url='login')
 @admin_only
@@ -86,3 +87,11 @@ def invSurveys(request):
 def logoutUser(request):
     logout(request)
     return redirect('login')
+
+@login_required(login_url='login')
+@admin_only
+def deleteUser(request,id):
+    user = User.objects.get(id=id)
+    User.delete(user)
+
+    return redirect('../')

@@ -10,5 +10,6 @@ urlpatterns = [
     path('adminUsers/', views.adminUsers, name="adminUsers"),
     path('adminSurveys/', views.adminSurvey, name="adminSurveys"),
     path('pollsters/', views.pollsters, name="pollsters"),
-    path('invSurveys/', views.invSurveys, name="invSurvey")
+    path('invSurveys/', views.invSurveys, name="invSurvey"),
+    path('adminUsers/deleteUser/<id>',views.deleteUser, name="deleteUser"),
 ] 
