@@ -21,10 +21,12 @@ from register import views as viewRegister
 from adminviews import views
 from django.conf import settings
 from django.conf.urls.static import static
+from dashboard import views as viewDashboard
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('login/', viewsLogin.login),
     path('register/',viewRegister.register),
     path('indexadmin/',views.index),
+    path('dashboard/',viewDashboard.dashboard),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

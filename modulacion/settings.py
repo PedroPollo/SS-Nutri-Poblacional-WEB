@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-xl5gjk%_f_pl3a@73z^c4whe6+seno#k7fzhm41p)$izsns6sh
 DEBUG = True
 
 STATICFILES_DIRS = [
-    BASE_DIR / '/Users/pedronunez/Desktop/Modulos/SS-Nutri-Poblacional-WEB/modulacion/static',
+    BASE_DIR / '/Users/david/Desktop/Nutri/SS-Nutri-Poblacional-WEB/modulacion/static',
 ]
 
 ALLOWED_HOSTS = []
@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "register",
     "usuarios",
     "adminviews",
+    "dashboard"
 ]
 
 MIDDLEWARE = [
