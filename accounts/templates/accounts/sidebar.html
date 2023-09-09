@@ -1,0 +1,40 @@
+{% load static %}
+
+<nav class="sidebar">
+    <ul class="sidebar-nav">
+            {% if request.user.is_staff %}
+            <li class="logo">
+                <a href="{% url 'IndexAdmin' %}" class="nav-link"><span class="material-symbols-outlined">
+                    <object data="{% static 'adminviews/logo.svg' %}" type=""></object>
+                </span></a>
+            </li>
+            <li class="nav-item"><a href="{% url 'IndexAdmin' %}" class="nav-link"><span class="material-symbols-outlined">
+                account_circle
+            </span><span class="link-text">{{request.user.nombre}} - Administrador </span></a></li>
+        <li class="nav-item"><a href="{% url 'adminUsers' %}" class="nav-link"><span class="material-symbols-outlined">
+            supervisor_account
+            </span><span class="link-text">Administrar usuarios</span></a></li>
+        <li class="nav-item"><a href="{% url 'adminSurveys' %}" class="nav-link"><span class="material-symbols-outlined">
+            edit_document
+            </span><span class="link-text">Administrar Encuestas</span></a></li>
+            {% else %}
+            <li class="logo">
+                <a href="{% url 'indexInvestigator' %}" class="nav-link"><span class="material-symbols-outlined">
+                    <object data="{% static 'adminviews/logo.svg' %}" type=""></object>
+                </span></a>
+            </li>
+            <li class="nav-item"><a href="{% url 'indexInvestigator' %}" class="nav-link"><span class="material-symbols-outlined">
+                account_circle
+        </span><span class="link-text">{{request.user.nombre}} - Investigador </span></a></li>
+        <li class="nav-item"><a href="{% url 'pollsters' %}" class="nav-link"><span class="material-symbols-outlined">
+            supervisor_account
+            </span><span class="link-text">Administrar Encuestadores</span></a></li>
+        <li class="nav-item"><a href="{% url 'invSurvey' %}" class="nav-link"><span class="material-symbols-outlined">
+            edit_document
+            </span><span class="link-text">Visualizar Encuestas</span></a></li>
+            {% endif %}
+        <li class="nav-item"><a href="../logout/" class="nav-link"><span class="material-symbols-outlined">
+            logout
+            </span><span class="link-text">Cerrar Sesion</span></a></li>
+    </ul>
+</nav>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'login/style.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="fotos">
+            <img src="{% static 'login/logo.png' %}" alt="Logo UAZ">
+        </div>
+        <div class="form">
+            {% block comment %}
+            <form action="" method="POST">
+                {% csrf_token %}
+                <input type="text" placeholder="Identificador" name="username">
+                <input type="password" placeholder="Contraseña" name="password">
+
+                <button type="submit" class="submit">Iniciar sesion</button>
+                {% for message in messages %}
+                <p class="succes" id="succes">{{message}}</p>
+                {% endfor %}
+            </form>
+            {% endblock comment %}
+            <hr>
+
+            <button type="button" class="button-secundario" onclick="location.href='../register/'">Registrarse</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -7,7 +7,7 @@ body {
     background: rgb(2,0,36);
     background: radial-gradient(
         farthest-corner circle at 30% 50%, 
-        #c48c29 0%, #001740 58% 58%
+        #cc9933 0%, #336699 58% 58%
     );
 }
 
@@ -27,6 +27,18 @@ body {
     text-align: center;
     margin: auto;
     color: red;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.succes{
+    width: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    color: #000;
+    border-radius: 10px;
+    background-color: #ecab0f;
     padding-top: 20px;
     font-size: small;
 }
