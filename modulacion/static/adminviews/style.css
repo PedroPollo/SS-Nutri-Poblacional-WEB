@@ -88,7 +88,7 @@ main{
 }
 
 .sidebar:hover{
-    width: 16rem;
+    width: 18rem;
     background: var(--bg-secondary);
 }
 
