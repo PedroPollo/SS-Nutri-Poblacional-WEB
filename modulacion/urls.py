@@ -17,9 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path,include
 from django.urls import path
-from login import views as viewsLogin
-from register import views as viewRegister
-from adminviews import views
+from accounts import views
 from django.conf import settings
 from django.conf.urls.static import static
 from dashboard import views as viewDashboard
@@ -28,9 +26,9 @@ from dashboard import views as viewDashboard
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("admin/", admin.site.urls),
-    path('login/', viewsLogin.login),
-    path('register/',viewRegister.register),
-    path('indexadmin/',views.index),
+    path('login/', views.login),
+    path('register/',views.registerPage),
+    path('indexadmin/',views.adminHome),
     path('dashboard/',viewDashboard.dashboard),
     path('',include('accounts.urls'))
 ]
