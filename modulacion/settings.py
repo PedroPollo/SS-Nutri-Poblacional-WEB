@@ -40,12 +40,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "login",
     "accounts",
-    "register",
-    "usuarios",
-    "adminviews",
-    "dashboard"
+    "dashboard",
+    'materializecssform',
 ]
 
 MIDDLEWARE = [
