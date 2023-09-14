@@ -95,3 +95,9 @@ def deleteUser(request,id):
     User.delete(user)
 
     return redirect('../')
+
+#Aregar login_required
+def dashboard(request):
+
+    return render(request, 'dashboard/index.html',
+                  {})

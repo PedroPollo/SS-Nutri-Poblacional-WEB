@@ -12,4 +12,5 @@ urlpatterns = [
     path('pollsters/', views.pollsters, name="pollsters"),
     path('invSurveys/', views.invSurveys, name="invSurvey"),
     path('adminUsers/deleteUser/<id>',views.deleteUser, name="deleteUser"),
+    path('dashboard/', views.dashboard, name="dashboard")
 ] 

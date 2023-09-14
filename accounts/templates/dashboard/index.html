@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% load materializecss %}
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'dashboard/style.css' %}">
+
+    {% block css %}
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/css/materialize.min.css" integrity="sha256-qj3p6P1fJIV+Ndv7RW1ovZI2UhOuboj9GcODzcNFIN8=" crossorigin="anonymous" />
+{% endblock css %}
+
+</head>
+<body>
+<!-- JS materialize-->
+{% block javascript %}
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.1/js/materialize.min.js" integrity="sha256-SrBfGi+Zp2LhAvy9M1bWOCXztRU9Ztztxmu5BcYPcPE=" crossorigin="anonymous"></script>
+
+<script>
+$(document).ready(function(){
+
+  // Initialize materialize data picker
+  $('.datepicker').datepicker({'format': 'yyyy-mm-dd'});
+  $('select').formSelect();
+
+});
+</script>
+{% endblock javascript %}
+<!-- Materialize JS -->
+
+  <nav>
+    <div class="nav-wrapper">
+
+      <a href="https://nutricion.uaz.edu.mx/" class="brand-logo">
+
+          <img class="responsive-img" id="logo2" src="{% static 'dashboard/logo.png' %}">
+
+
+      </a>
+        <form id="formSearch">
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Inicio</a></li>
+        <li><a href="badges.html">Análisis estadístico</a></li>
+          <li><a href="badges.html">Encuestadores</a></li>
+        <li><a href="collapsible.html">Cerrar sesión</a></li>
+
+          <!-- Agregar panel de usuario info etc circulo para cambiar de idioma-->
+      </ul>
+    </div>
+  </nav>
+
+
+</body>
+</html>

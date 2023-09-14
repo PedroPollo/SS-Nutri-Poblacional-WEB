@@ -1,0 +1,22 @@
+#logo2{
+    height: 5vh;
+    margin-top: 10%;
+
+}
+nav .nav-wrapper{
+    background-color: #0a1f45;
+}
+#nav-mobile{
+    margin-top: -8vh;
+}
+.nav-wrapper .input-field input[type=search]{
+    width: 30vw !important;
+
+}
+.input-field input[type=search]+.label-icon{
+
+}
+nav .input-field{
+    left: 10vw !important;
+    width: 35vw;
+}
