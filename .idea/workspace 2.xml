@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eeaee82-fd29-4580-961d-c227cd06ed19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/password_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/accounts/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/dashboard/analisis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/dashboard/billing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/dashboard/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/dashboard/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/dashboard/vr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/fixed-plugin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/footer-fullscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/footer-rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/navigation-fullscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/navigation-rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/scripts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/sidebar-rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/includes/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/layouts/base-fullscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/templates/layouts/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependencias.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/dark-theme-core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/dark-theme-core.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/forms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/nucleo-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/nucleo-svg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/soft-ui-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/soft-ui-dashboard.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/soft-ui-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/css/widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/dashboard/logonutri.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/fonts/nucleo.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/bruce-mars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved11-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved5-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved6-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/curved9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/curved-images/white-curved.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/down-arrow-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/down-arrow-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/down-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/home-decor-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/home-decor-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/home-decor-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/icon-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/icon-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/icons/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/illustrations/rocket-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/illustrations/rocket-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/ivana-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/ivancik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/kal-visuals-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/logo-ct-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/logo-ct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/logos/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/logos/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/marie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/pattern-lines.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/shape-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/shape-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/shape-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/wave-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/wave-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/waves-gray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/shapes/waves-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/icon-sun-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-atlassian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-invision.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-jira.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-webdev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/small-logos/logo-xd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/angular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/bootstrap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/dribbble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/dropbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/react.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/sketch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/slack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/spotify.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/tim.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/unass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/theme/vue.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/img/vr-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/core/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/dark-mode-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/plugins/Chart.extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/plugins/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/plugins/chartjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/plugins/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/plugins/smooth-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/soft-ui-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/soft-ui-dashboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/js/soft-ui-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/dark-theme-core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_dark-version.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_dropup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_tilt.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_maps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_placeholders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_color-bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_stacks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/helpers/_vr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_backdrop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/cards/card-background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/custom/_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/custom/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/mixins/_colored-shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/mixins/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/mixins/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/plugins/free/_flatpickr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/plugins/free/_nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/plugins/free/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/plugins/free/_prism.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/plugins/free/plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_cards-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_choices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_dark-version.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_full-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_misc-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modulacion/static/scss/soft-ui-dashboard/variables/_virtual-reality.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/admin/surveys.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/admin/surveys.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/admin/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/admin/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/investigator/encuestadores.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/investigator/encuestadores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/investigator/surveys.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/investigator/surveys.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/dashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/dashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulacion/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/modulacion/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulacion/static/dashboard/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/modulacion/static/dashboard/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/venv/lib/python3.11/site-packages/admin_soft/templates/accounts/login.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2VMHxo9zVyhQA6qC7jxxFZ9MldH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "David2",
+    "last_opened_file_path": "/Users/david/Desktop/Nutri/SS-Nutri-Poblacional-WEB/accounts/templates/includes",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/accounts/templates/includes" />
+      <recent name="$PROJECT_DIR$/modulacion/static" />
+      <recent name="$PROJECT_DIR$/accounts/templates/dashboard" />
+      <recent name="$PROJECT_DIR$/accounts/templates/accounts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modulacion/static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.python manage.py runserver">
+    <configuration name="python manage.py runserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SS-Nutri-Poblacional-WEB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SS-Nutri-Poblacional-WEB" type="Python.DjangoServer" factoryName="Django server">
+      <module name="SS-Nutri-Poblacional-WEB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.python manage.py runserver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3eeaee82-fd29-4580-961d-c227cd06ed19" name="Changes" comment="" />
+      <created>1694639280172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694639280172</updated>
+      <workItem from="1694639281775" duration="9167000" />
+      <workItem from="1694656233554" duration="16773000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SS_Nutri_Poblacional_WEB$python_manage_py_runserver.coverage" NAME="python manage.py runserver Coverage Results" MODIFIED="1694664659873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
