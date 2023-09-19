@@ -11,3 +11,5 @@ para que estos modulos puedan ser usados los tienes que declarar en el archivo s
 y declaralo dentro de `INSTALLED_APPS`
 
 Para poder utilizar un archivo Javascript o CSS debes de agregarlo a la carpeta static, crea una carpeta con el nombre de tu carpeta y dentro de esta agrega tus css, js o imagenes.
+
+Si se descarga el proyecto se tiene que especificar la ruta local para los statics, esto se cambia en settings 

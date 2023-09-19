@@ -25,22 +25,22 @@ SECRET_KEY = "django-insecure-xl5gjk%_f_pl3a@73z^c4whe6+seno#k7fzhm41p)$izsns6sh
 DEBUG = True
 
 STATICFILES_DIRS = [
-    BASE_DIR / '/Users/pedronunez/Desktop/Modulos/SS-Nutri-Poblacional-WEB/modulacion/static',
+    BASE_DIR / '/Users/david/Desktop/Nutri/SS-Nutri-Poblacional-WEB/modulacion/static',
 ]
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_soft.apps.AdminSoftDashboardConfig',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "accounts",
+    "accounts"
 ]
 
 MIDDLEWARE = [
@@ -58,7 +58,7 @@ ROOT_URLCONF = "modulacion.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR/"accounts"/"templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -73,7 +73,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "modulacion.wsgi.application"
 
-
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
@@ -83,7 +82,6 @@ DATABASES = {
         "NAME": BASE_DIR / "db.sqlite3",
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
@@ -103,7 +101,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
@@ -115,7 +112,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
@@ -125,6 +121,5 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
 
 AUTH_USER_MODEL = 'accounts.User'
