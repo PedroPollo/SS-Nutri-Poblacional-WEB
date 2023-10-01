@@ -31,11 +31,6 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', '0').lower() in ['true', 't', '1']
 
-DEBUG=1
-SECRET_KEY="w7a8a@lj8nax7tem0caa2f2rjm2ahsascyf83sa5alyv68vea"
-ALLOWED_HOSTS="localhost 127.0.0.1 [::1] portafolioshrimpcola.azurewebsites.net"
-CSRF_TRUSTED_ORIGINS="portafolioshrimpcola.azurewebsites.net"
-SECURE_SSL_REDIRECT=0
 
 STATICFILES_DIRS = [
     BASE_DIR / '/Users/david/Desktop/Nutri/SS-Nutri-Poblacional-WEB/modulacion/static',
