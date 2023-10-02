@@ -1,6 +1,7 @@
 {% extends 'layouts/base.html' %}
 {% load static %}
 
+
 {% block content %}
 
     <div class="container-fluid py-4">
@@ -289,7 +290,7 @@
         </div>
       </div>
 
-      <div class="row my-4">
+    <!---  <div class="row my-4">
         <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
           <div class="card">
             <div class="card-header pb-0">
@@ -633,7 +634,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>--> <!--Aqui hay más secciones-->
 
       {% include "includes/footer.html" %}
 
@@ -646,20 +647,23 @@
 
   <script src="{% static 'js/plugins/chartjs.min.js' %}"></script>
   <script>
-    var ctx = document.getElementById("chart-bars").getContext("2d");
+      const ctx = document.getElementById("chart-bars").getContext("2d");
 
-    new Chart(ctx, {
+      new Chart(ctx, {
       type: "bar",
       data: {
-        labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        labels: ["Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
         datasets: [{
-          label: "Sales",
+          label: "Encuestas",
           tension: 0.4,
           borderWidth: 0,
           borderRadius: 4,
           borderSkipped: false,
-          backgroundColor: "#fff",
-          data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
+          backgroundColor: "#baa541",
+          data: [450, 200, 100, 220, 500, 100, 400, 230, 500
+            // get from models, data from database
+
+          ],
           maxBarThickness: 6
         }, ],
       },
